@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from './components/Nav'
 import './App.css'//why
 import Hero from './components/Hero'
-
+import Card from './components/Card'
 function App() {
 
 
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Hero/>
+      <Card/>
     </div>
   )
 }
